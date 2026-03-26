@@ -1,0 +1,1606 @@
+{
+  "exported_at": "2026-03-24T15:54:24.082811+00:00",
+  "total": 100,
+  "repositories": [
+    {
+      "github_id": 132750724,
+      "name_with_owner": "codecrafters-io/build-your-own-x",
+      "stars": 483032,
+      "forks": 45461,
+      "is_archived": false,
+      "primary_language": "Markdown",
+      "description": "Master programming by recreating your favorite technologies from scratch.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708683+00"
+    },
+    {
+      "github_id": 21737465,
+      "name_with_owner": "sindresorhus/awesome",
+      "stars": 448490,
+      "forks": 33731,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "\ud83d\ude0e Awesome lists about all kinds of interesting topics",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708692+00"
+    },
+    {
+      "github_id": 28457823,
+      "name_with_owner": "freeCodeCamp/freeCodeCamp",
+      "stars": 438782,
+      "forks": 43755,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "freeCodeCamp.org's open-source codebase and curriculum. Learn math, programming, and computer science for free.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 7
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708696+00"
+    },
+    {
+      "github_id": 54346799,
+      "name_with_owner": "public-apis/public-apis",
+      "stars": 415574,
+      "forks": 45033,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "A collective list of free APIs",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.7087+00"
+    },
+    {
+      "github_id": 13491895,
+      "name_with_owner": "EbookFoundation/free-programming-books",
+      "stars": 384525,
+      "forks": 66047,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": ":books: Freely available programming books",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708703+00"
+    },
+    {
+      "github_id": 85077558,
+      "name_with_owner": "kamranahmedse/developer-roadmap",
+      "stars": 351581,
+      "forks": 43846,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Interactive roadmaps, guides and other educational content to help developers grow in their careers.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708707+00"
+    },
+    {
+      "github_id": 83222441,
+      "name_with_owner": "donnemartin/system-design-primer",
+      "stars": 340067,
+      "forks": 55012,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.70871+00"
+    },
+    {
+      "github_id": 60493101,
+      "name_with_owner": "jwasham/coding-interview-university",
+      "stars": 338182,
+      "forks": 81620,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A complete computer science study plan to become a software engineer.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708713+00"
+    },
+    {
+      "github_id": 1103012935,
+      "name_with_owner": "openclaw/openclaw",
+      "stars": 334006,
+      "forks": 65122,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. \ud83e\udd9e ",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 12
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708716+00"
+    },
+    {
+      "github_id": 21289110,
+      "name_with_owner": "vinta/awesome-python",
+      "stars": 288777,
+      "forks": 27475,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "An opinionated list of Python frameworks, libraries, tools, and resources.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708719+00"
+    },
+    {
+      "github_id": 36633370,
+      "name_with_owner": "awesome-selfhosted/awesome-selfhosted",
+      "stars": 281825,
+      "forks": 12974,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A list of Free Software network services and web applications which can be hosted on your own servers",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708722+00"
+    },
+    {
+      "github_id": 177736533,
+      "name_with_owner": "996icu/996.ICU",
+      "stars": 275802,
+      "forks": 20931,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "Repo for counting stars and contributing. Press F to pay respect to glorious developers.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708726+00"
+    },
+    {
+      "github_id": 88011908,
+      "name_with_owner": "practical-tutorials/project-based-learning",
+      "stars": 261576,
+      "forks": 34040,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "Curated list of project-based tutorials",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708729+00"
+    },
+    {
+      "github_id": 10270250,
+      "name_with_owner": "facebook/react",
+      "stars": 244151,
+      "forks": 50851,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "The library for web and native user interfaces.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 6
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708748+00"
+    },
+    {
+      "github_id": 2325298,
+      "name_with_owner": "torvalds/linux",
+      "stars": 224836,
+      "forks": 61172,
+      "is_archived": false,
+      "primary_language": "C",
+      "description": "Linux kernel source tree",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 24
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708751+00"
+    },
+    {
+      "github_id": 63476337,
+      "name_with_owner": "TheAlgorithms/Python",
+      "stars": 219011,
+      "forks": 50238,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "All Algorithms implemented in Python",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 3
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708754+00"
+    },
+    {
+      "github_id": 138393139,
+      "name_with_owner": "trimstray/the-book-of-secret-knowledge",
+      "stars": 211446,
+      "forks": 12656,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708758+00"
+    },
+    {
+      "github_id": 11730342,
+      "name_with_owner": "vuejs/vue",
+      "stars": 209959,
+      "forks": 33846,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "This is the repo for Vue 2. For Vue 3, go to https://github.com/vuejs/core",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708761+00"
+    },
+    {
+      "github_id": 19415064,
+      "name_with_owner": "ossu/computer-science",
+      "stars": 202708,
+      "forks": 25171,
+      "is_archived": false,
+      "primary_language": "HTML",
+      "description": "\ud83c\udf93 Path to a free self-taught education in Computer Science!",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708764+00"
+    },
+    {
+      "github_id": 126577260,
+      "name_with_owner": "trekhleb/javascript-algorithms",
+      "stars": 195775,
+      "forks": 31093,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "\ud83d\udcdd Algorithms and data structures implemented in JavaScript with explanations and links to further readings",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708767+00"
+    },
+    {
+      "github_id": 45717250,
+      "name_with_owner": "tensorflow/tensorflow",
+      "stars": 194319,
+      "forks": 75251,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": "An Open Source Machine Learning Framework for Everyone",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 26
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.70877+00"
+    },
+    {
+      "github_id": 291137,
+      "name_with_owner": "ohmyzsh/ohmyzsh",
+      "stars": 185607,
+      "forks": 26311,
+      "is_archived": false,
+      "primary_language": "Shell",
+      "description": "\ud83d\ude43   A delightful community-driven (with 2,400+ contributors) framework for managing your zsh configuration. Includes 300+ optional plugins (rails, git, macOS, hub, docker, homebrew, node, php, python, etc), 140+ themes to spice up your morning, and an auto-update tool that makes it easy to keep up with the latest updates from the community.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 3
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708773+00"
+    },
+    {
+      "github_id": 14440270,
+      "name_with_owner": "getify/You-Dont-Know-JS",
+      "stars": 184533,
+      "forks": 33602,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A book series (2 published editions) on the JS language.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708776+00"
+    },
+    {
+      "github_id": 121395510,
+      "name_with_owner": "CyC2018/CS-Notes",
+      "stars": 184009,
+      "forks": 51113,
+      "is_archived": false,
+      "primary_language": null,
+      "description": ":books: \u6280\u672f\u9762\u8bd5\u5fc5\u5907\u57fa\u7840\u77e5\u8bc6\u3001Leetcode\u3001\u8ba1\u7b97\u673a\u64cd\u4f5c\u7cfb\u7edf\u3001\u8ba1\u7b97\u673a\u7f51\u7edc\u3001\u7cfb\u7edf\u8bbe\u8ba1",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708779+00"
+    },
+    {
+      "github_id": 41881900,
+      "name_with_owner": "microsoft/vscode",
+      "stars": 183010,
+      "forks": 38724,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Visual Studio Code",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 46
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708783+00"
+    },
+    {
+      "github_id": 614765452,
+      "name_with_owner": "Significant-Gravitas/AutoGPT",
+      "stars": 182781,
+      "forks": 46215,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "AutoGPT is the vision of accessible AI for everyone, to use and to build on. Our mission is to provide the tools, so that you can focus on what matters.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 20
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708786+00"
+    },
+    {
+      "github_id": 193215554,
+      "name_with_owner": "n8n-io/n8n",
+      "stars": 180834,
+      "forks": 56110,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Fair-code workflow automation platform with native AI capabilities. Combine visual building with custom code, self-host or cloud, 400+ integrations.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 16
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708789+00"
+    },
+    {
+      "github_id": 123458551,
+      "name_with_owner": "jackfrued/Python-100-Days",
+      "stars": 180097,
+      "forks": 55517,
+      "is_archived": false,
+      "primary_language": "Jupyter Notebook",
+      "description": "Python - 100\u5929\u4ece\u65b0\u624b\u5230\u5927\u5e08",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708792+00"
+    },
+    {
+      "github_id": 31792824,
+      "name_with_owner": "flutter/flutter",
+      "stars": 175682,
+      "forks": 30156,
+      "is_archived": false,
+      "primary_language": "Dart",
+      "description": "Flutter makes it easy and fast to build beautiful apps for mobile and beyond",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 21
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708795+00"
+    },
+    {
+      "github_id": 2126244,
+      "name_with_owner": "twbs/bootstrap",
+      "stars": 174105,
+      "forks": 79047,
+      "is_archived": false,
+      "primary_language": "MDX",
+      "description": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708798+00"
+    },
+    {
+      "github_id": 1062897,
+      "name_with_owner": "github/gitignore",
+      "stars": 173166,
+      "forks": 82736,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A collection of useful .gitignore templates",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708802+00"
+    },
+    {
+      "github_id": 233472199,
+      "name_with_owner": "massgravel/Microsoft-Activation-Scripts",
+      "stars": 169842,
+      "forks": 16344,
+      "is_archived": false,
+      "primary_language": "Batchfile",
+      "description": "Open-source Windows and Office activator featuring HWID, Ohook, TSforge, and Online KMS activation methods, along with advanced troubleshooting.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708805+00"
+    },
+    {
+      "github_id": 21540759,
+      "name_with_owner": "avelino/awesome-go",
+      "stars": 168124,
+      "forks": 13088,
+      "is_archived": false,
+      "primary_language": "Go",
+      "description": "A curated list of awesome Go frameworks, libraries and software",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708808+00"
+    },
+    {
+      "github_id": 658928958,
+      "name_with_owner": "ollama/ollama",
+      "stars": 166025,
+      "forks": 15134,
+      "is_archived": false,
+      "primary_language": "Go",
+      "description": "Get up and running with Kimi-K2.5, GLM-5, MiniMax, DeepSeek, gpt-oss, Qwen, Gemma and other models.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 15
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708811+00"
+    },
+    {
+      "github_id": 527591471,
+      "name_with_owner": "AUTOMATIC1111/stable-diffusion-webui",
+      "stars": 161974,
+      "forks": 30198,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Stable Diffusion web UI",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 6
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708814+00"
+    },
+    {
+      "github_id": 35955666,
+      "name_with_owner": "jlevy/the-art-of-command-line",
+      "stars": 160471,
+      "forks": 14797,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "Master the command line, in one page",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708817+00"
+    },
+    {
+      "github_id": 155220641,
+      "name_with_owner": "huggingface/transformers",
+      "stars": 158330,
+      "forks": 32589,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. ",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.70882+00"
+    },
+    {
+      "github_id": 132464395,
+      "name_with_owner": "Snailclimb/JavaGuide",
+      "stars": 154440,
+      "forks": 46131,
+      "is_archived": false,
+      "primary_language": "Java",
+      "description": "Java \u9762\u8bd5 & \u540e\u7aef\u901a\u7528\u9762\u8bd5\u6307\u5357\uff0c\u8986\u76d6\u8ba1\u7b97\u673a\u57fa\u7840\u3001\u6570\u636e\u5e93\u3001\u5206\u5e03\u5f0f\u3001\u9ad8\u5e76\u53d1\u4e0e\u7cfb\u7edf\u8bbe\u8ba1\u3002\u51c6\u5907\u540e\u7aef\u6280\u672f\u9762\u8bd5\uff0c\u9996\u9009 JavaGuide\uff01",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 3
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708823+00"
+    },
+    {
+      "github_id": 574523116,
+      "name_with_owner": "f/prompts.chat",
+      "stars": 154128,
+      "forks": 20257,
+      "is_archived": false,
+      "primary_language": "HTML",
+      "description": "f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source \u2014 self-host for your organization with complete privacy.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 7
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708826+00"
+    },
+    {
+      "github_id": 808144141,
+      "name_with_owner": "DigitalPlatDev/FreeDomain",
+      "stars": 154020,
+      "forks": 2638,
+      "is_archived": false,
+      "primary_language": "HTML",
+      "description": "DigitalPlat FreeDomain: Free Domain For Everyone",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": false,
+        "language_count": 3
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.70883+00"
+    },
+    {
+      "github_id": 307260205,
+      "name_with_owner": "yt-dlp/yt-dlp",
+      "stars": 153056,
+      "forks": 12397,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "A feature-rich command-line audio/video downloader",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708833+00"
+    },
+    {
+      "github_id": 6498492,
+      "name_with_owner": "airbnb/javascript",
+      "stars": 148118,
+      "forks": 26755,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "JavaScript Style Guide",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708836+00"
+    },
+    {
+      "github_id": 58028038,
+      "name_with_owner": "521xueweihan/HelloGitHub",
+      "stars": 147274,
+      "forks": 11250,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": ":octocat: \u5206\u4eab GitHub \u4e0a\u6709\u8da3\u3001\u5165\u95e8\u7ea7\u7684\u5f00\u6e90\u9879\u76ee\u3002Share interesting, entry-level open source projects on GitHub.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708839+00"
+    },
+    {
+      "github_id": 599320067,
+      "name_with_owner": "langflow-ai/langflow",
+      "stars": 146160,
+      "forks": 8646,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Langflow is a powerful tool for building and deploying AI-powered agents and workflows.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 11
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708842+00"
+    },
+    {
+      "github_id": 1039520,
+      "name_with_owner": "ytdl-org/youtube-dl",
+      "stars": 139941,
+      "forks": 10601,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Command-line program to download videos from YouTube.com and other video sites",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 5
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708845+00"
+    },
+    {
+      "github_id": 70107786,
+      "name_with_owner": "vercel/next.js",
+      "stars": 138450,
+      "forks": 30693,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "The React Framework",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 13
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708848+00"
+    },
+    {
+      "github_id": 62607227,
+      "name_with_owner": "yangshun/tech-interview-handbook",
+      "stars": 138344,
+      "forks": 16481,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Curated coding interview preparation materials for busy software engineers",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708851+00"
+    },
+    {
+      "github_id": 111583593,
+      "name_with_owner": "Genymobile/scrcpy",
+      "stars": 137470,
+      "forks": 12807,
+      "is_archived": false,
+      "primary_language": "C",
+      "description": "Display and control your Android device",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708856+00"
+    },
+    {
+      "github_id": 626805178,
+      "name_with_owner": "langgenius/dify",
+      "stars": 134262,
+      "forks": 20913,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Production-ready platform for agentic workflow development.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 12
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708859+00"
+    },
+    {
+      "github_id": 23096959,
+      "name_with_owner": "golang/go",
+      "stars": 133142,
+      "forks": 18875,
+      "is_archived": false,
+      "primary_language": "Go",
+      "description": "The Go programming language",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 12
+      },
+      "first_seen_at": "2026-03-24 15:54:11.734252+00",
+      "updated_at": "2026-03-24 15:54:11.708863+00"
+    },
+    {
+      "github_id": 241576270,
+      "name_with_owner": "labuladong/fucking-algorithm",
+      "stars": 133128,
+      "forks": 23687,
+      "is_archived": false,
+      "primary_language": "Markdown",
+      "description": "Crack LeetCode, not only how, but also why. ",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760689+00"
+    },
+    {
+      "github_id": 943398999,
+      "name_with_owner": "x1xhlol/system-prompts-and-models-of-ai-tools",
+      "stars": 133027,
+      "forks": 33605,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "FULL Augment Code, Claude Code, Cluely, CodeBuddy, Comet, Cursor, Devin AI, Junie, Kiro, Leap.new, Lovable, Manus, NotionAI, Orchids.app, Perplexity, Poke, Qoder, Replit, Same.dev, Trae, Traycer AI, VSCode Agent, Warp.dev, Windsurf, Xcode, Z.ai Code, Dia & v0. (And other Open Sourced) System Prompts, Internal Tools & AI Models",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760702+00"
+    },
+    {
+      "github_id": 184456251,
+      "name_with_owner": "microsoft/PowerToys",
+      "stars": 130888,
+      "forks": 7811,
+      "is_archived": false,
+      "primary_language": "C#",
+      "description": "Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 11
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.76071+00"
+    },
+    {
+      "github_id": 552661142,
+      "name_with_owner": "langchain-ai/langchain",
+      "stars": 130887,
+      "forks": 21554,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "The agent engineering platform",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 7
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760716+00"
+    },
+    {
+      "github_id": 975734319,
+      "name_with_owner": "anomalyco/opencode",
+      "stars": 129467,
+      "forks": 13698,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "The open source coding agent.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 10
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760723+00"
+    },
+    {
+      "github_id": 701547123,
+      "name_with_owner": "open-webui/open-webui",
+      "stars": 128503,
+      "forks": 18165,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 11
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.76073+00"
+    },
+    {
+      "github_id": 112507086,
+      "name_with_owner": "Chalarangelo/30-seconds-of-code",
+      "stars": 127204,
+      "forks": 12458,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "Coding articles to level up your development skills",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 6
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760737+00"
+    },
+    {
+      "github_id": 29028775,
+      "name_with_owner": "facebook/react-native",
+      "stars": 125636,
+      "forks": 25120,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": "A framework for building native applications using React",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 16
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760743+00"
+    },
+    {
+      "github_id": 561730219,
+      "name_with_owner": "krahets/hello-algo",
+      "stars": 123810,
+      "forks": 14935,
+      "is_archived": false,
+      "primary_language": "Java",
+      "description": "\u300aHello \u7b97\u6cd5\u300b\uff1a\u52a8\u753b\u56fe\u89e3\u3001\u4e00\u952e\u8fd0\u884c\u7684\u6570\u636e\u7ed3\u6784\u4e0e\u7b97\u6cd5\u6559\u7a0b\u3002\u652f\u6301\u7b80\u4e2d\u3001\u7e41\u4e2d\u3001English\u3001\u65e5\u672c\u8a9e\uff0c\u63d0\u4f9b Python, Java, C++, C, C#, JS, Go, Swift, Rust, Ruby, Kotlin, TS, Dart \u7b49\u4ee3\u7801\u5b9e\u73b0",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 9
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.76075+00"
+    },
+    {
+      "github_id": 20580498,
+      "name_with_owner": "kubernetes/kubernetes",
+      "stars": 121321,
+      "forks": 42721,
+      "is_archived": false,
+      "primary_language": "Go",
+      "description": "Production-Grade Container Scheduling and Management",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 10
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760756+00"
+    },
+    {
+      "github_id": 9384267,
+      "name_with_owner": "electron/electron",
+      "stars": 120611,
+      "forks": 17070,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 11
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760762+00"
+    },
+    {
+      "github_id": 32484381,
+      "name_with_owner": "ripienaar/free-for-dev",
+      "stars": 120305,
+      "forks": 12484,
+      "is_archived": false,
+      "primary_language": "HTML",
+      "description": "A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760769+00"
+    },
+    {
+      "github_id": 231283452,
+      "name_with_owner": "excalidraw/excalidraw",
+      "stars": 119472,
+      "forks": 12980,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Virtual whiteboard for sketching hand-drawn like diagrams",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760776+00"
+    },
+    {
+      "github_id": 14098069,
+      "name_with_owner": "justjavac/free-programming-books-zh_CN",
+      "stars": 116505,
+      "forks": 28308,
+      "is_archived": false,
+      "primary_language": null,
+      "description": ":books: \u514d\u8d39\u7684\u8ba1\u7b97\u673a\u7f16\u7a0b\u7c7b\u4e2d\u6587\u4e66\u7c4d\uff0c\u6b22\u8fce\u6295\u7a3f",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760783+00"
+    },
+    {
+      "github_id": 27193779,
+      "name_with_owner": "nodejs/node",
+      "stars": 116405,
+      "forks": 35147,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "Node.js JavaScript runtime \u2728\ud83d\udc22\ud83d\ude80\u2728",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 15
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760789+00"
+    },
+    {
+      "github_id": 157616880,
+      "name_with_owner": "iptv-org/iptv",
+      "stars": 113784,
+      "forks": 5797,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Collection of publicly available IPTV channels from all over the world",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760796+00"
+    },
+    {
+      "github_id": 943149,
+      "name_with_owner": "d3/d3",
+      "stars": 112601,
+      "forks": 22784,
+      "is_archived": false,
+      "primary_language": "Shell",
+      "description": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760802+00"
+    },
+    {
+      "github_id": 576201,
+      "name_with_owner": "mrdoob/three.js",
+      "stars": 111533,
+      "forks": 36306,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "JavaScript 3D Library.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760809+00"
+    },
+    {
+      "github_id": 724712,
+      "name_with_owner": "rust-lang/rust",
+      "stars": 111459,
+      "forks": 14668,
+      "is_archived": false,
+      "primary_language": "Rust",
+      "description": "Empowering everyone to build reliable and efficient software.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 25
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760815+00"
+    },
+    {
+      "github_id": 585146387,
+      "name_with_owner": "shadcn-ui/ui",
+      "stars": 110604,
+      "forks": 8290,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "A set of beautifully-designed, accessible components and a code distribution platform. Works with your favorite frameworks. Open Source. Open Code.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760822+00"
+    },
+    {
+      "github_id": 1073224795,
+      "name_with_owner": "obra/superpowers",
+      "stars": 109948,
+      "forks": 8816,
+      "is_archived": false,
+      "primary_language": "Shell",
+      "description": "An agentic skills framework & software development methodology that works.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 6
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760829+00"
+    },
+    {
+      "github_id": 299354207,
+      "name_with_owner": "rustdesk/rustdesk",
+      "stars": 109940,
+      "forks": 16425,
+      "is_archived": false,
+      "primary_language": "Rust",
+      "description": "An open-source remote desktop application designed for self-hosting, as an alternative to TeamViewer.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 16
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760835+00"
+    },
+    {
+      "github_id": 55076063,
+      "name_with_owner": "Hack-with-Github/Awesome-Hacking",
+      "stars": 108971,
+      "forks": 10083,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A collection of various awesome lists for hackers, pentesters and security researchers",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": false,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760841+00"
+    },
+    {
+      "github_id": 23088740,
+      "name_with_owner": "axios/axios",
+      "stars": 108655,
+      "forks": 11558,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "Promise based HTTP client for the browser and node.js",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760845+00"
+    },
+    {
+      "github_id": 655806940,
+      "name_with_owner": "microsoft/generative-ai-for-beginners",
+      "stars": 108456,
+      "forks": 58147,
+      "is_archived": false,
+      "primary_language": "Jupyter Notebook",
+      "description": "21 Lessons, Get Started Building with Generative AI ",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760849+00"
+    },
+    {
+      "github_id": 15634981,
+      "name_with_owner": "godotengine/godot",
+      "stars": 108401,
+      "forks": 24764,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": "Godot Engine \u2013 Multi-platform 2D and 3D game engine",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 15
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760853+00"
+    },
+    {
+      "github_id": 20929025,
+      "name_with_owner": "microsoft/TypeScript",
+      "stars": 108267,
+      "forks": 13302,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "TypeScript is a superset of JavaScript that compiles to clean JavaScript output.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 3
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760856+00"
+    },
+    {
+      "github_id": 206462776,
+      "name_with_owner": "GrowingGit/GitHub-Chinese-Top-Charts",
+      "stars": 107071,
+      "forks": 13532,
+      "is_archived": false,
+      "primary_language": "Java",
+      "description": ":cn: GitHub\u4e2d\u6587\u6392\u884c\u699c\uff0c\u5404\u8bed\u8a00\u5206\u8bbe\u300c\u8f6f\u4ef6 | \u8d44\u6599\u300d\u699c\u5355\uff0c\u7cbe\u51c6\u5b9a\u4f4d\u4e2d\u6587\u597d\u9879\u76ee\u3002\u5404\u53d6\u6240\u9700\uff0c\u9ad8\u6548\u5b66\u4e60\u3002",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.76086+00"
+    },
+    {
+      "github_id": 589831718,
+      "name_with_owner": "Comfy-Org/ComfyUI",
+      "stars": 106822,
+      "forks": 12301,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760863+00"
+    },
+    {
+      "github_id": 133442384,
+      "name_with_owner": "denoland/deno",
+      "stars": 106430,
+      "forks": 5953,
+      "is_archived": false,
+      "primary_language": "Rust",
+      "description": "A modern runtime for JavaScript and TypeScript.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 16
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760867+00"
+    },
+    {
+      "github_id": 48378947,
+      "name_with_owner": "fatedier/frp",
+      "stars": 105550,
+      "forks": 14957,
+      "is_archived": false,
+      "primary_language": "Go",
+      "description": "A fast reverse proxy to help you expose a local server behind a NAT or firewall to the internet.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 9
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.76087+00"
+    },
+    {
+      "github_id": 103633984,
+      "name_with_owner": "goldbergyoni/nodebestpractices",
+      "stars": 105176,
+      "forks": 10698,
+      "is_archived": false,
+      "primary_language": "Dockerfile",
+      "description": ":white_check_mark:  The Node.js best practices list (July 2024)",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760875+00"
+    },
+    {
+      "github_id": 721767116,
+      "name_with_owner": "clash-verge-rev/clash-verge-rev",
+      "stars": 105095,
+      "forks": 7637,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "A modern GUI client based on Tauri, designed to run in Windows, macOS and Linux for tailored proxy experience",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 7
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760881+00"
+    },
+    {
+      "github_id": 196701619,
+      "name_with_owner": "tauri-apps/tauri",
+      "stars": 104555,
+      "forks": 3463,
+      "is_archived": false,
+      "primary_language": "Rust",
+      "description": "Build smaller, faster, and more secure desktop and mobile applications with a web frontend.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 18
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760886+00"
+    },
+    {
+      "github_id": 15204860,
+      "name_with_owner": "papers-we-love/papers-we-love",
+      "stars": 104433,
+      "forks": 6305,
+      "is_archived": false,
+      "primary_language": "Shell",
+      "description": "Papers from the computer science community to read and discuss.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760893+00"
+    },
+    {
+      "github_id": 1136590548,
+      "name_with_owner": "affaan-m/everything-claude-code",
+      "stars": 104087,
+      "forks": 13532,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 6
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760899+00"
+    },
+    {
+      "github_id": 63537249,
+      "name_with_owner": "facebook/create-react-app",
+      "stars": 103809,
+      "forks": 27107,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "Set up a modern web app by running one command.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760906+00"
+    },
+    {
+      "github_id": 793375104,
+      "name_with_owner": "Shubhamsaboo/awesome-llm-apps",
+      "stars": 103403,
+      "forks": 15089,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760911+00"
+    },
+    {
+      "github_id": 908531752,
+      "name_with_owner": "deepseek-ai/DeepSeek-V3",
+      "stars": 102355,
+      "forks": 16592,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": null,
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760914+00"
+    },
+    {
+      "github_id": 100060912,
+      "name_with_owner": "microsoft/terminal",
+      "stars": 102343,
+      "forks": 9156,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": "The new Windows Terminal and the original Windows console host, all in the same place!",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 12
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760918+00"
+    },
+    {
+      "github_id": 1061953414,
+      "name_with_owner": "anthropics/skills",
+      "stars": 101755,
+      "forks": 11150,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Public repository for Agent Skills",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 4
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760922+00"
+    },
+    {
+      "github_id": 63539055,
+      "name_with_owner": "jaywcjlove/awesome-mac",
+      "stars": 100804,
+      "forks": 7527,
+      "is_archived": false,
+      "primary_language": "JavaScript",
+      "description": "\uf8ff This project is dedicated to collecting high-quality macOS software and organizing them systematically by different categories for easy search and use.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760925+00"
+    },
+    {
+      "github_id": 24195339,
+      "name_with_owner": "angular/angular",
+      "stars": 100123,
+      "forks": 27129,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "Deliver web apps with confidence \ud83d\ude80",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 8
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760928+00"
+    },
+    {
+      "github_id": 199570071,
+      "name_with_owner": "2dust/v2rayN",
+      "stars": 99667,
+      "forks": 14383,
+      "is_archived": false,
+      "primary_language": "C#",
+      "description": "A GUI client for Windows, Linux and macOS, support Xray and sing-box and others",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 2
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760932+00"
+    },
+    {
+      "github_id": 214587193,
+      "name_with_owner": "supabase/supabase",
+      "stars": 99548,
+      "forks": 11873,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "The Postgres development platform. Supabase gives you a dedicated Postgres database to build your web, mobile, and AI applications.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 14
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760935+00"
+    },
+    {
+      "github_id": 612354784,
+      "name_with_owner": "ggml-org/llama.cpp",
+      "stars": 99172,
+      "forks": 15760,
+      "is_archived": false,
+      "primary_language": "C++",
+      "description": "LLM inference in C/C++",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 24
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760939+00"
+    },
+    {
+      "github_id": 243950408,
+      "name_with_owner": "Anduin2017/HowToCook",
+      "stars": 99009,
+      "forks": 10878,
+      "is_archived": false,
+      "primary_language": "Dockerfile",
+      "description": "\u7a0b\u5e8f\u5458\u5728\u5bb6\u505a\u996d\u65b9\u6cd5\u6307\u5357\u3002Programmer's guide about how to cook at home (Simplified Chinese only).",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 1
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760942+00"
+    },
+    {
+      "github_id": 968197216,
+      "name_with_owner": "google-gemini/gemini-cli",
+      "stars": 98920,
+      "forks": 12580,
+      "is_archived": false,
+      "primary_language": "TypeScript",
+      "description": "An open-source AI agent that brings the power of Gemini directly into your terminal.",
+      "metadata": {
+        "has_wiki": false,
+        "has_issues": true,
+        "language_count": 7
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760945+00"
+    },
+    {
+      "github_id": 65600975,
+      "name_with_owner": "pytorch/pytorch",
+      "stars": 98531,
+      "forks": 27285,
+      "is_archived": false,
+      "primary_language": "Python",
+      "description": "Tensors and Dynamic neural networks in Python with strong GPU acceleration",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 27
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760949+00"
+    },
+    {
+      "github_id": 101296881,
+      "name_with_owner": "mtdvio/every-programmer-should-know",
+      "stars": 98347,
+      "forks": 8694,
+      "is_archived": false,
+      "primary_language": null,
+      "description": "A collection of (mostly) technical things every software developer should know about",
+      "metadata": {
+        "has_wiki": true,
+        "has_issues": true,
+        "language_count": 0
+      },
+      "first_seen_at": "2026-03-24 15:54:11.763952+00",
+      "updated_at": "2026-03-24 15:54:11.760952+00"
+    }
+  ]
+}

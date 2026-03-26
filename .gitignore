@@ -1,0 +1,19 @@
+# Python standard ignore patterns
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.egg-info/
+*.env
+
+# OS specific ignore patterns
+.DS_Store
+Thumbs.db
+
+# IDE specific ignore patterns
+.vscode/
+.idea/
+*.swp
+*~

@@ -1,0 +1,109 @@
+# GitHub Repository Crawler
+#
+# Runs:
+#   - Daily at 02:00 UTC
+#   - Manually via workflow_dispatch
+#
+# Steps:
+#   1. checkout
+#   2. setup-python
+#   3. install-dependencies
+#   4. setup-postgres  — creates the repositories table
+#   5. crawl-stars     — fetches 100k repos from GitHub API, saves to DB
+#   6. export-database — dumps to CSV + JSON
+#   7. upload-artifact — stores results for 30 days
+#   8. print-summary   — prints stats to Actions console
+name: GitHub Repository Crawler
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # daily at 02:00 UTC
+  workflow_dispatch:       # allow manual runs from the Actions tab
+
+jobs:
+  crawl:
+    name: Crawl GitHub Repositories
+    runs-on: ubuntu-latest
+    timeout-minutes: 360   # 6 hours max
+
+    services:
+      postgres:
+        image: postgres:17
+        env:
+          POSTGRES_USER:     crawler
+          POSTGRES_PASSWORD: crawler
+          POSTGRES_DB:       github_crawler
+        options: >-
+          --health-cmd pg_isready
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 5
+        ports:
+          - 5432:5432
+
+    env:
+      DATABASE_URL: postgresql://crawler:crawler@localhost:5432/github_crawler
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.13
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Install psql client
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y postgresql-client
+
+      - name: Setup Postgres
+        run: psql "$DATABASE_URL" -f sql/schema.sql
+        env:
+          PGPASSWORD: crawler
+
+      - name: Crawl stars
+        run: python src/crawler.py
+        env:
+          DATABASE_URL: ${{ env.DATABASE_URL }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TARGET_REPOS: "100000"
+          BATCH_SIZE: "500"
+
+      - name: Export database to files
+        run: |
+          mkdir -p /tmp/crawl-output
+          python src/export.py
+        env:
+          DATABASE_URL: ${{ env.DATABASE_URL }}
+          OUTPUT_DIR: /tmp/crawl-output
+
+      - name: Upload crawl results as artifact
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: crawl-results-${{ github.run_id }}
+          path: /tmp/crawl-output/
+          retention-days: 30
+
+      - name: Print crawl summary
+        if: always()
+        run: |
+          echo "=== Crawl Summary ==="
+          psql "$DATABASE_URL" -c "
+            SELECT
+              COUNT(*)              AS total_repos,
+              MAX(stars)            AS max_stars,
+              MIN(stars)            AS min_stars,
+              ROUND(AVG(stars))     AS avg_stars,
+              COUNT(DISTINCT owner) AS unique_owners
+            FROM repositories;
+          "
+        env:
+          PGPASSWORD: crawler
