@@ -19,8 +19,9 @@ Batch inserts:
 import logging
 from datetime import datetime, timezone
 
-import psycopg2
-import psycopg2.extras
+import psycopg
+from psycopg import Connection
+
 
 from models import Repository
 
@@ -35,30 +36,26 @@ class RepositoryStore:
     Receives a plain psycopg2 connection — no pool, no abstraction layer.
     """
 
-    def __init__(self, conn: psycopg2.extensions.connection) -> None:
+    def __init__(self, conn: Connection) -> None:
         self._conn = conn
 
+# Replace execute_values with psycopg3's executemany
     def upsert_batch(self, repos: list[Repository]) -> int:
-        """
-        Insert or update a batch of repositories.
-
-        Uses UPSERT so daily re-crawls only touch rows that changed.
-        The WHERE clause on the UPDATE means Postgres skips writing rows
-        where stars, forks, and is_archived are all unchanged.
-
-        Returns the number of rows actually written.
-        """
         if not repos:
             return 0
 
-        rows = [_repo_to_row(r) for r in repos]
+        rows = [_repo_to_dict(r) for r in repos]
 
         sql = """
             INSERT INTO repositories (
                 github_id, name_with_owner, name, owner,
                 stars, forks, is_archived, primary_language,
                 description, created_at, pushed_at, updated_at
-            ) VALUES %s
+            ) VALUES (
+                %(github_id)s, %(name_with_owner)s, %(name)s, %(owner)s,
+                %(stars)s, %(forks)s, %(is_archived)s, %(primary_language)s,
+                %(description)s, %(created_at)s, %(pushed_at)s, %(updated_at)s
+            )
             ON CONFLICT (github_id) DO UPDATE SET
                 name_with_owner  = EXCLUDED.name_with_owner,
                 stars            = EXCLUDED.stars,
@@ -75,11 +72,9 @@ class RepositoryStore:
         """
 
         with self._conn.cursor() as cur:
-            psycopg2.extras.execute_values(cur, sql, rows, page_size=BATCH_SIZE)
+            cur.executemany(sql, [_repo_to_dict(r) for r in repos])
             affected = cur.rowcount
-
         self._conn.commit()
-        logger.debug("Upserted %d repos (%d rows changed)", len(repos), affected)
         return affected
 
     def count(self) -> int:
@@ -89,22 +84,19 @@ class RepositoryStore:
             return cur.fetchone()[0]
 
 
-def _repo_to_row(r: Repository) -> tuple:
-    """
-    Convert a Repository domain model to a SQL row tuple.
-    Column order must match the INSERT statement in upsert_batch().
-    """
-    return (
-        r.github_id,
-        r.name_with_owner,
-        r.name,
-        r.owner,
-        r.stars,
-        r.forks,
-        r.is_archived,
-        r.primary_language,
-        r.description,
-        r.created_at,
-        r.pushed_at,
-        datetime.now(timezone.utc),
-    )
+def _repo_to_dict(r: Repository) -> dict:
+    return {
+        "github_id":        r.github_id,
+        "name_with_owner":  r.name_with_owner,
+        "name":             r.name,
+        "owner":            r.owner,
+        "stars":            r.stars,
+        "forks":            r.forks,
+        "is_archived":      r.is_archived,
+        "primary_language": r.primary_language,
+        "description":      r.description,
+        "created_at":       r.created_at,
+        "pushed_at":        r.pushed_at,
+        "updated_at":       datetime.now(timezone.utc),
+    }
+   

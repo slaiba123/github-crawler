@@ -14,7 +14,7 @@ import sys
 import time
 from itertools import islice
 
-import psycopg2
+import psycopg
 
 from github_client import GitHubClient
 from repository import RepositoryStore
@@ -44,7 +44,7 @@ async def main() -> None:
     logger.info("Target: %d repos | Batch size: %d", TARGET_COUNT, BATCH_SIZE)
 
     sslmode = "require" if "supabase" in DB_DSN else "prefer"
-    conn  = psycopg2.connect(DB_DSN, sslmode=sslmode)
+    conn = psycopg.connect(DB_DSN, sslmode=sslmode)    
     store = RepositoryStore(conn)
     client = GitHubClient(token=GITHUB_TOKEN)
 

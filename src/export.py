@@ -12,8 +12,8 @@ import os
 from datetime import datetime, timezone
 from pathlib import Path
 
-import psycopg2
-import psycopg2.extras
+import psycopg
+from psycopg.rows import dict_row
 
 logger = logging.getLogger(__name__)
 
@@ -56,11 +56,11 @@ def main() -> None:
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
     sslmode = "require" if "supabase" in DB_DSN else "prefer"
-    conn = psycopg2.connect(DB_DSN, sslmode=sslmode)
+    conn = psycopg.connect(DB_DSN, sslmode=sslmode)
 
     try:
         rows = []
-        with conn.cursor(cursor_factory=psycopg2.extras.RealDictCursor) as cur:
+        with conn.cursor(row_factory=dict_row) as cur:
             cur.execute(SQL)
             rows = [dict(row) for row in cur]
 
