@@ -43,9 +43,6 @@ class RepositoryStore:
     def upsert_batch(self, repos: list[Repository]) -> int:
         if not repos:
             return 0
-
-        rows = [_repo_to_dict(r) for r in repos]
-
         sql = """
             INSERT INTO repositories (
                 github_id, name_with_owner, name, owner,

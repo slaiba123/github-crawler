@@ -250,30 +250,56 @@ python src/export.py
 
 ## What I would do differently for 500 million repositories
 
-### 1. Distributed crawling
+### 1. Multiple processes with separate tokens
 
-A single Python process is the bottleneck. At 500M repos you need horizontal scale:
+The current crawler is a single Python process with one GitHub token — that's a hard ceiling of 5,000 points per hour no matter how you tune the semaphore. The semaphore controls how fast requests fire within that budget, but can't increase the budget itself. Increasing it further wouldn't help because the bottleneck is the token's point limit, not concurrency.
 
-- Split (bucket, language) combinations across N workers using a message queue (SQS or Redis Streams). Each worker pulls a job, processes it, acknowledges on success. Failed jobs retry automatically.
-- Use GitHub App installation tokens — each worker gets its own token, multiplying the rate limit. 10 workers × 5,000 points = 50,000 points/hour.
+At 500M repos you need multiple separate processes, each with its own token:
 
-### 2. Database at scale
+```
+Process 1 + token A → 5,000 points/hour
+Process 2 + token B → 5,000 points/hour
+Process 3 + token C → 5,000 points/hour
+```
 
-A single Postgres instance cannot handle 500M rows efficiently:
+The 608 (bucket, language) combinations get divided between processes so there's no overlap. A shared queue (like Redis) handles this cleanly — each process picks the next available job, completes it, and picks the next. If a process crashes, its job goes back in the queue for another process to pick up automatically.
 
-- **Hash partitioning** — partition `repositories` by `github_id % N`. Queries hit one partition instead of scanning 500M rows.
-- **Read replicas** — direct all export and analytics queries to replicas, keeping write throughput fast on the primary.
+### 2. Partitioned database
 
-### 3. Smarter crawl strategy
+An index on 500M rows becomes very large — potentially 20–30GB just for the index itself. When the index doesn't fit in RAM, Postgres reads it from disk instead, which is roughly 100x slower. Simply adding more indexes doesn't solve this because the indexes themselves become the problem.
 
-- **Incremental crawl** — repos not pushed to in a year rarely change star count. Prioritise recently active repos.
-- **GitHub Events API** — emits a `WatchEvent` when a repo is starred. Subscribe to this stream instead of polling — only re-crawl repos that actually changed. Reduces API calls by orders of magnitude.
+Hash partitioning splits one giant table into N smaller tables based on `github_id % N`:
+
+```
+github_id = 101  →  101 % 4 = 1  →  partition 1
+github_id = 102  →  102 % 4 = 2  →  partition 2
+github_id = 103  →  103 % 4 = 3  →  partition 3
+```
+
+Each partition has its own smaller index that fits in RAM. A query for one repo only searches one partition — never all 500M rows. From the application code nothing changes; Postgres routes to the right partition automatically.
+
+### 3. Only re-crawl what changed
+
+Right now every daily run checks every repo, even ones that haven't had any activity in months. Two improvements:
+
+- Skip repos with no recent pushes — their star count almost certainly hasn't changed
+- Use the GitHub Events API, which emits a `WatchEvent` every time any public repo gets starred. Instead of polling everything blindly, listen to this stream and only re-fetch repos that actually received a new star. It's like turning on notifications instead of checking your inbox every 5 minutes — you react to changes instead of guessing where they happened. This cuts API calls dramatically.
 
 ---
 
-## How the schema evolves — issues, PRs, comments
+## How the schema grows over time
 
-### Core principle: store counts first, content second
+Each new data type gets its own table, linked to the parent by ID:
+
+```
+repositories
+     ↓
+pull_requests   (repo_github_id → repositories)
+     ↓
+pr_comments     (pr_github_id → pull_requests)
+```
+
+This means adding CI checks or reviews later is just a new table with a foreign key — nothing existing needs to change.
 
 ```sql
 CREATE TABLE pull_requests (
@@ -305,25 +331,23 @@ CREATE TABLE issues (
 );
 ```
 
-### How "a PR gets 10 comments today, 20 tomorrow" is handled efficiently
+### Handling comment count updates efficiently
 
-Tomorrow's re-crawl runs one single UPDATE:
+When a PR goes from 10 comments to 20, one row is updated — not 10 rows deleted and 20 inserted:
 
 ```sql
 UPDATE pull_requests
 SET comment_count = 20
 WHERE github_id = 12345
-  AND comment_count != 20;   -- skip entirely if nothing changed
+  AND comment_count != 20;   -- skipped entirely if nothing changed
 ```
 
-**1 row written.** Not 10 new rows.
-
-For the actual comment text, insert only the new ones:
+For the actual comment text, only new ones are inserted. The `ON CONFLICT DO NOTHING` means re-running the crawl never creates duplicates:
 
 ```sql
 INSERT INTO pr_comments (github_id, pr_github_id, body, author)
 VALUES (...)
-ON CONFLICT (github_id) DO NOTHING;   -- safe to re-crawl, never creates duplicates
+ON CONFLICT (github_id) DO NOTHING;
 ```
 
 ### Why this schema survives future requirements
